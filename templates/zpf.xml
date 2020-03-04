@@ -1,5 +1,5 @@
 <templateSet group="zpf">
-  <template name="*" value="/**&#10; * @description $description$&#10; * @author zhaopf@mti-sh.cn $param$&#10; * @createTime $date$ $TIME$ $return$&#10; */" description="注解模板" toReformat="false" toShortenFQNames="true">
+  <template name="dm" value="/**&#10; * @description $description$&#10; * @author zhaopf@mti-sh.cn $param$&#10; * @createTime $date$ $TIME$ $return$&#10; */" shortcut="ENTER" description="注解模板" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="param" expression="groovyScript(&quot;def result=''; def stop=false; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); if (params.size()==1 &amp;&amp; (params[0]==null || params[0]=='null' || params[0]=='')) { stop=true; }; if(!stop) { for(i=0; i &lt; params.size(); i++) {result +=((i==0) ? '\\r\\n' : '') + ((i &lt; params.size() - 1) ? ' * @param: ' + params[i] + '\\r\\n' : ' * @param: ' + params[i] + '')}; }; return result;&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
