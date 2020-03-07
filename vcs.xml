@@ -6,6 +6,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="zhaopengfeihappy@qq.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.168.4.24:8099" />
+          <option name="userName" value="zhaopf" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
