@@ -2,5 +2,6 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Java/Declaration/Generate overloaded method with default parameter values" />
     <ignoreAction name="Java/Declaration/Create field for parameter" />
+    <ignoreAction name="Java/Modifiers/Change access modifier" />
   </component>
 </application>
