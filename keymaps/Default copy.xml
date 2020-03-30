@@ -1,5 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="ActivateProjectToolWindow" />
+  <action id="Console.TableResult.SetNull" />
+  <action id="Inline" />
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
