@@ -8,9 +8,8 @@
       <mapping pattern="readme" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="dll" type="PLAIN_TEXT" />
-      <mapping ext="lib" type="PLAIN_TEXT" />
-      <removed_mapping ext="lib" type="UNKNOWN" />
-      <removed_mapping ext="dll" type="UNKNOWN" />
+      <removed_mapping ext="dll" approved="true" type="UNKNOWN" />
+      <removed_mapping ext="dll" approved="true" type="UNKNOWN" />
     </extensionMap>
   </component>
 </application>
