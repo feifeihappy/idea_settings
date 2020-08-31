@@ -3,11 +3,18 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Console.TableResult.SetNull" />
   <action id="DecreaseColumnWidth" />
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
   <action id="Inline" />
   <action id="ResizeToolWindowLeft" />
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
