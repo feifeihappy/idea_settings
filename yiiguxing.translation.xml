@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="radius" />
+      <item value="geom" />
+      <item value="hours" />
+      <item value="late" />
+      <item value="COALESCE" />
       <item value="Order" />
       <item value="value" />
       <item value="order" />
@@ -11,13 +16,15 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="15" />
-        <entry key="ENGLISH" value="16" />
+        <entry key="CHINESE" value="23" />
+        <entry key="ENGLISH" value="23" />
       </map>
     </option>
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
+    <option name="showWordsOnStartup" value="true" />
+    <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="76946d86a05d0c05" />
