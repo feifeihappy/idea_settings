@@ -1,0 +1,16 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Count" />
+    </histories>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+    <option name="translator" value="ai.youdao" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="76946d86a05d0c05" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>
